@@ -148,7 +148,24 @@ level03@SnowCrash:~$
 - `/usr/bin/env echo Exploit me` can be how the output is execut.
 
 _I think it's time to discover how to decompile a file_
-- Let's install [ghidra](https://ghidra-sre.org/)
+- Let's tranfer this file in my machine :
+```sh
+➜  ~ scp -P 4242 level03@127.0.0.1:/home/user/level03/level03 /Users/mayoub/Desktop/
+	   _____                      _____               _
+	  / ____|                    / ____|             | |
+	 | (___  _ __   _____      _| |     _ __ __ _ ___| |__
+	  \___ \| '_ \ / _ \ \ /\ / / |    | '__/ _` / __| '_ \
+	  ____) | | | | (_) \ V  V /| |____| | | (_| \__ \ | | |
+	 |_____/|_| |_|\___/ \_/\_/  \_____|_|  \__,_|___/_| |_|
+
+  Good luck & Have fun
+
+          10.0.2.15 fec0::2577:d9d0:9935:9a6 fec0::5054:ff:fe12:3456
+level03@127.0.0.1's password:
+level03                                                                                                                                                                   100% 8302   403.5KB/s   00:00
+➜  ~
+```
+- And let's install [ghidra](https://ghidra-sre.org/)
 
 **OKAY, the file is decompiled** :
 ![decompiled](../../assets/decompiled.png)
