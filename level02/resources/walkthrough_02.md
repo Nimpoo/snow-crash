@@ -31,7 +31,25 @@ wwwbugs login: df&N�%
 
 After some research, the extention `.pcap` is associated with the software called [Wireshark](https://www.wireshark.org/). We need this software to open and read the file.
 - Wireshark is a **network protocol analyzer** : with Wireshark we can see all exchanges between a client and a server in details.
-- And this file with the extension `.pcap` is create with Wireshark : it capture a frame or a momentum of all exchenges beetween the clients and the server of a network and save all that in a file -> **here, the file `level02.pcap` is more exactly a moment when clients and a server communicates in a network**. 42 secondes of excenges has been captured here :
+- And this file with the extension `.pcap` is create with Wireshark : it capture a frame or a momentum of all exchenges beetween the clients and the server of a network and save all that in a file -> **here, the file `level02.pcap` is more exactly a moment when clients and a server communicates in a network**.
+- First, let's transfer this file to my machine to be able to process it better because on the VM I have almost no restrictions : the command `scp` can do that with `ssh connection` :
+```sh
+➜  ~ scp -P 4242 level02@127.0.0.1:/home/user/level02/level02.pcap /Users/mayoub/Desktop/
+	   _____                      _____               _
+	  / ____|                    / ____|             | |
+	 | (___  _ __   _____      _| |     _ __ __ _ ___| |__
+	  \___ \| '_ \ / _ \ \ /\ / / |    | '__/ _` / __| '_ \
+	  ____) | | | | (_) \ V  V /| |____| | | (_| \__ \ | | |
+	 |_____/|_| |_|\___/ \_/\_/  \_____|_|  \__,_|___/_| |_|
+
+  Good luck & Have fun
+
+          10.0.2.15 fec0::2577:d9d0:9935:9a6 fec0::5054:ff:fe12:3456
+level02@127.0.0.1's password:
+level02.pcap                                                                                                                                                              100% 8302   403.5KB/s   00:00
+➜  ~
+```
+- 42 secondes of excenges has been captured here :
 ![capture](../../assets/capture_wireshark.png)
 
 _Okay, now what we can see in these exchanges ?_
