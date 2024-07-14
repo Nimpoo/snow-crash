@@ -93,7 +93,7 @@ su: Authentication failure
 level02@SnowCrash:~$
 ```
 _I don't unerstand ??? Let's try another sowing method instead of `ASCII`. Mmmh... `C Array` !_
-- Wireshark can show data as other tha `ASCII`, Here what we can see with `C Array` :
+- Wireshark can show data as other than `ASCII`, Here what we can see with `C Array` :
 ```sh
 ...[USELESS_INFO]...
 char peer0_13[] = { /* Packet 45 */
