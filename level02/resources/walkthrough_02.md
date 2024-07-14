@@ -50,17 +50,17 @@ level02.pcap                                                                    
 ➜  ~
 ```
 - 42 secondes of excenges has been captured here :
-![capture](../../assets/capture_wireshark.png)
+![capture](../../assets/level02/capture_wireshark.png)
 
 _Okay, now what we can see in these exchanges ?_
 This is what Wireshark display when we open the file `level02.pcap` :
-![exchanges](../../assets/exchanges.png)
+![exchanges](../../assets/level02/exchanges.png)
 
 Each numbers representes an exchanges with some packets.
 
 _Let's see what all they contained..._
 - Verifying 1 by 1 all packets we found this :
-![password](../../assets/password.png)
+![password](../../assets/level02/password.png)
 
 _"Password" ?_
 ```sh
@@ -75,7 +75,7 @@ _Okay it's not that easy_
 - BUT we can **follow the TCP stream**, doing that display, in order, the all communication between both endpoints and there session, some other informations can be hided with that.
 - For simple, all packets we can see here are Lego pieces, if we **follow the TCP stream**, Wireshark assembles all lego pieces for seeing what it look like.
 - Let's follow the TCP stream of the "Password" packet :
-![flag02](../../assets/the_flag02.png)
+![flag02](../../assets/level02/the_flag02.png)
 _"ft_wandrNDRelL0L" ? What is these dots ?_
 
 - Okay let's try it with the dots :
