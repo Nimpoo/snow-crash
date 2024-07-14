@@ -168,7 +168,7 @@ level03                                                                         
 - And let's install [ghidra](https://ghidra-sre.org/)
 
 **OKAY, the file is decompiled** :
-![decompiled](../../assets/decompiled.png)
+![decompiled](../../assets/level03/decompiled.png)
 ## YES ! I had just !
 
 _So, what I have supposed to do now ?_
