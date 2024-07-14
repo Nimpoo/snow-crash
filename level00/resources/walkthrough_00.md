@@ -48,7 +48,7 @@ I put this string in [this site](https://www.dcode.fr/identification-chiffrement
 So I tried the Ceasar Cipher and test all possible rotation [here](https://www.dcode.fr/chiffre-cesar)
 Here is the output :
 
-![Trying decoding cdiiddwpgswtgt](../../assets/cdiiddwpgswtgt.png "cdiiddwpgswtgt")
+![Trying decoding cdiiddwpgswtgt](../../assets/level00/cdiiddwpgswtgt.png "cdiiddwpgswtgt")
 
 The sentence `nottohardhere` looks credible.
 
