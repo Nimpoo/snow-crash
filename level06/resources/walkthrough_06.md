@@ -13,7 +13,7 @@ d--x--x--x  1 root    users    340 Aug 30  2015 ..
 -rwxr-x---  1 flag06  level06  356 Mar  5  2016 level06.php
 -r-x------  1 level06 level06  675 Apr  3  2012 .profile
 ```
-- `find / -user flag04 2> /dev/null`: nothing
+- `find / -user flag06 2> /dev/null`: nothing
 
 ## _A BINARY FILE, LET'S RUN IT NOW_
 ```sh
