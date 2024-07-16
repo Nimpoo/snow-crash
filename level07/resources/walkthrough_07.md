@@ -77,7 +77,7 @@ _It's only that. I didn't expect something so simple after the previous level...
 
 - Let's login to `level07` directly :
 ```sh
-level07@SnowCrash:~$ su level07
+level07@SnowCrash:~$ su level08
 Password:
 level08@SnowCrash:~$
 ```
