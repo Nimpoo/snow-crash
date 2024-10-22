@@ -30,7 +30,7 @@ And for get the files from the virtual machine, I use `scp`:
 
 # _<u>🚨 SPOILER ZONE 🚨</u>_
 
-## Summary (`level00` to `level09`, I don't do the bonus levels) :
+## Summary (`level00` to `level09`, we doesn't do the bonus levels) :
 
 - [`level00`](level00/resources/walkthrough_00.md) : Ceasar cipher
 - [`level01`](level01/resources/walkthrough_01.md) : _John the Ripper_
