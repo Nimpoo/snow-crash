@@ -1,6 +1,6 @@
 # snow-crash
 
-## _SnowCrash_ is a 42 project that introduces us to the basics of cybersecurity. The goal is to find the flag hidden in the system.
+## _SnowCrash_ is a 42 project, and more specially : an `ISO challenge`. It introduces us to the basics of cybersecurity. The goal is to find the flag hidden in the system.
 
 Each level is a user, and we have to search, exploit and escalate privileges to find the flag of the next level. We have to discover all the level user offers to us to beat it.
 
