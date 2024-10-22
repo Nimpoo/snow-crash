@@ -8,6 +8,8 @@ There is multiple language (`C`, `ASM`, `php`, `perl`, etc...) but the main lang
 
 ### It's very fun and interesting to do !
 
+This `README.md` is write after having resolve all the levels with my BRO [Noah](https://github.com/noalexan). For each level documents the steps I took to solve the challenge, the tools I used, and even the mistakes I made. I aim to transcribe my logic, and my research.
+
 # Virtual Machine Setup
 
 The subject give to us a `pdf` file with all rules of the project. And an image disk that we have to run with. Personally, I use `qemu` to run it. But you can use `VirtualBox` or `VMware` if you want.
