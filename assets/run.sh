@@ -19,6 +19,5 @@ qemu-system-x86_64 \
 	-netdev user,id=vmnic,hostname=lfshost,hostfwd=tcp::4242-:4242 \
 	-device virtio-net,netdev=vmnic \
 	-device virtio-rng-pci \
-	-deamonize \
 
 #	-net nic,model=virtio \
