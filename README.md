@@ -1,5 +1,7 @@
 # snow-crash
 
+![SnowCrash](assets/SnowCrash.png)
+
 ## _SnowCrash_ is a 42 project, and more specially : an `ISO challenge`. It introduces us to the basics of cybersecurity. The goal is to find the flag hidden in the system.
 
 Each level is a user, and we have to search, exploit and escalate privileges to find the flag of the next level. We have to discover all the level user offers to us to beat it.
@@ -45,4 +47,11 @@ And for get the files from the virtual machine, I use `scp`:
 
 <br />
 
-![Garp](assets/Garp.gif)
+## MADE BY TWO REAL BRO :
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/noalexan/"><img src="https://avatars.githubusercontent.com/u/102285721?v=4" width="100px;" alt=""/><br /><sub><b>Noah (noalexan)</b></sub></a><br /><a href="https://profile.intra.42.fr/users/noalexan" title="Intra 42"><img src="https://img.shields.io/badge/Nice-FFFFFF?style=plastic&logo=42&logoColor=000000" alt="Intra 42"/></a></td>
+    <td align="center"><a href="https://github.com/nimpoo/"><img src="https://avatars.githubusercontent.com/u/91483405?v=4" width="100px;" alt=""/><br /><sub><b>Nimpô (mayoub)</b></sub></a><br /><a href="https://profile.intra.42.fr/users/mayoub" title="Intra 42"><img src="https://img.shields.io/badge/Nice-FFFFFF?style=plastic&logo=42&logoColor=000000" alt="Intra 42"/></a></td>
+  </tr>
+</table>
