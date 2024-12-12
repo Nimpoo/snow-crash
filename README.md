@@ -47,7 +47,7 @@ And for get the files from the virtual machine, I use `scp`:
 
 <br />
 
-## MADE BY TWO REAL BRO :
+## MADE BY TWO REAL BROS :
 
 <table>
   <tr>
